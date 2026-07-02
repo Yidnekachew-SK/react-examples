@@ -4,8 +4,8 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "dev": "vite $INIT_CWD -c ./vite.config.js",
-    "lint": "eslint $INIT_CWD --fix || prettier $INIT_CWD --write"
+    "dev": "vite --config vite.config.js",
+    "lint": "eslint --fix || prettier --write"
   },
   "repository": {
     "type": "git",
